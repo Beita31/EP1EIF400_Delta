@@ -1,1 +1,27 @@
+.negrita{
+	font-weight: bold;
+}
 
+.fuenteRoja{
+	color: red;
+}
+
+.fuenteVerde{
+	color: #009933;
+}
+
+.fuenteCeleste{
+	color: #0099FF;
+}
+
+.italica{
+	font-style: italic;
+}
+
+.subrayado{
+	text-decoration: underline;
+}
+
+.tachado{
+	text-decoration: line-through;
+}
