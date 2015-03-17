@@ -6,8 +6,8 @@
 	<title>Examen 1</title>
 	<link rel="stylesheet" href="styles/reset.css" media="all" type="text/css" />
 	<link rel="stylesheet" href="styles/print.css" media="print" type="text/css" />
-	<!--<link rel="stylesheet" href="styles/desktop_first.css" media="all" type="text/css" />-->
-	<link rel="stylesheet" href="styles/mobile_first.css" media="all" type="text/css" />
+	<link rel="stylesheet" href="styles/desktop_first.css" media="all" type="text/css" />
+	<!--<link rel="stylesheet" href="styles/mobile_first.css" media="all" type="text/css" />-->
 	<link rel="stylesheet" href="styles/style.css" media="all" type="text/css" />
 	<!--[if IE]-->
 	<link rel="stylesheet" href="style_ie.css" media="all" type="text/css" />
@@ -17,19 +17,19 @@
 	<header>
 		<h1>UNA Web [Delta]</h1>		
 		<nav>
-			<ul>
-				<li><a href="#">HOME</a></li>
+			<ul class="negrita">
+				<li>HOME</li>
 				<li><a href="#">ABOUT</a></li>
 				<li><a href="#">COURSES</a></li>
 				<li><a href="#">CONTACT</a></li>
 			</ul>
 		</nav>
 		<figure>
-			<img src="images/universidadNacional.jpg" alt="Logo UNA">
+			<img id="imgU" src="images/universidadNacional.jpg" alt="Logo UNA">
 		</figure>
 	</header>
 	<section>
-		<article>
+		<article id="main_Section">
 			<h2>Main Section</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -50,10 +50,10 @@
 			In hac habitasse platea dictumst.
 			</p>
 		</article>
-		<aside>
+		<aside id="subsections">
 			<div id = "Sub_Section">
 				<h3 class="fuenteCeleste">Sub-section</h3>
-				<div>
+				<div id="sub_Section_Box">
 					<p>A  
 						<span class="negrita">
 							paragraph
@@ -92,16 +92,16 @@
 				imperdiet a, venenatis vitae, justo.
 				</p>
 			</div>
-			<div id = "Sub_Sub_Sub_Section rojo en Internet Explorer" class="italica fuenteRoja">
-				<h4>Sub-Sub-Sub-Section</h4>
+			<div id = "Sub_Sub_Sub_Section" class="italica fuenteRoja">
+				<h5>Sub-Sub-Sub-Section</h5>
 				<p>Rojo solo para IE, el resto lo debe ver negro</p>
 			</div>
 		</aside>       
 		<footer>
 			<hr>
 			<nav>
-				<ul>
-					<li><a href="#">HOME</a></li>
+				<ul class="negrita">
+					<li>HOME</li>
 					<li><a href="#">ABOUT</a></li>
 					<li><a href="#">COURSES</a></li>
 					<li><a href="#">CONTACT</a></li>

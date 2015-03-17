@@ -1,1 +1,100 @@
+@charset "UTF-8"; 
+*{
+	font-size: 14px;
+}
 
+h1{
+	margin: 0px 0px 16px 5%;
+	float:left;
+	font-size: 4em;
+	width: 50%;
+}
+
+
+header nav{
+	float:left;
+	width: 25%;
+	margin: 12px 5% 0px 15%;
+}
+
+header nav ul li{
+	font-size: 1.15em;
+	display: inline-block;
+} 
+
+header nav ul li a{
+	font-size: 1em;
+	display: inline-block;
+} 
+
+header figure #imgU{
+	width: 920px;
+	height: 300px;
+	margin: 0px 15% 0px 15%;
+	
+}
+
+h2{
+	font-size: 1.8em;
+}
+h3{
+	font-size: 1.5em;
+}
+h4{
+	font-size: 1.3em;
+	margin-bottom: 2px;
+}
+
+h5{
+	font-size: 1.1em;
+	margin-bottom: 2px;
+}
+
+#main_Section{
+	float: left;
+	width: 53.25%;
+	margin-left: 5%;
+	margin-right: 1.75%;
+}
+
+#subsections{
+	float:left;
+	width: 33.25%;
+	margin-left: 1.75%;
+	margin-right: 5%;
+}
+
+#sub_Section_Box {
+	border: solid;
+	background-color: #FFCC66;
+}  
+
+#sub_Section_Box p{
+	margin-top: 5px;
+	margin-left: 2%;
+}
+ 
+#Sub_Sub_Section p{
+	margin-top: 7px;
+	margin-bottom : 7px;
+}
+
+#Sub_Sub_Sub_Section p{
+	margin-top: 7px;
+	margin-bottom : 7px;
+}
+
+footer{
+	width: 100%;
+}
+
+
+footer nav ul li{
+	font-size: 1.15em;
+	display: inline-block;
+} 
+
+footer nav ul li a{
+	font-size: 1em;
+	display: inline-block;
+}
