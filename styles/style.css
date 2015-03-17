@@ -26,3 +26,9 @@
 	text-decoration: line-through;
 }
 
+/*SOLO PARA IE 10 y 11, PARA EL RESTO SE USA LA HOJA DE ESTILOS*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.IE{
+		color: #FF0000;
+	}
+} 
