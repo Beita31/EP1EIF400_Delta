@@ -3,6 +3,6 @@
 	float: left;
 }
 
-figure, footer nav{
+figure, footer nav, nav{
 	display: none;
 }
