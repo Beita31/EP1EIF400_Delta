@@ -111,9 +111,9 @@ footer nav ul li a{
 @media only screen and (max-device-width: 460px) {
 	*{
 		font-size: 14px;
-	}
+	} 
 
-	header, nav, div, article, aside, footer , h1, h2, h3, h4{
+	header, nav, div, article, aside, footer , h1, h2, h3, h4, h5{
 	float: left;
 	width:100%;
 	}
@@ -161,42 +161,49 @@ footer nav ul li a{
 		text-decoration: none;
 	}
 	
-/*
-header figure #imgU{
-	width: 920px;
-	height: 300px;
-	margin: 0px 15% 0px 15%;
+	header figure #imgU{
+		width: 460px;
+		height: auto;
+		margin-top: 2%;
 	
-}
+	}
+
 
 h2{
-	font-size: 1.8em;
+	font-size: 3.5em;
+	margin-bottom: 1%;
 }
 h3{
-	font-size: 1.5em;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	font-size: 3.3em;
 }
 h4{
-	font-size: 1.3em;
-	margin-bottom: 2px;
+	margin-bottom: 1.5%;
+	font-size: 3.15em;
 }
 
 h5{
-	font-size: 1.1em;
-	margin-bottom: 2px;
+	margin-bottom: 1%;
+	font-size: 2.9em;
 }
 
 #main_Section{
 	float: left;
-	width: 53.25%;
-	margin-left: 5%;
-	margin-right: 1.75%;
+	width: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#main_Section p{
+	margin-bottom: 1%;
 }
 
 #subsections{
 	float:left;
-	width: 33.25%;
-	margin-left: 1.75%;
-	margin-right: 5%;
+	width: 100%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 #sub_Section_Box {
@@ -205,32 +212,29 @@ h5{
 }  
 
 #sub_Section_Box p{
-	margin-top: 5px;
 	margin-left: 2%;
 }
  
 #Sub_Sub_Section p{
-	margin-top: 7px;
-	margin-bottom : 7px;
+	margin-bottom : 1%;
 }
 
 #Sub_Sub_Sub_Section p{
-	margin-top: 7px;
-	margin-bottom : 7px;
+	margin-bottom : 1%;
 }
 
 footer{
 	width: 100%;
 }
 
+footer nav{
+	display: none;
+}
 
-footer nav ul li{
-	font-size: 1.15em;
-	display: inline-block;
-} 
-
-footer nav ul li a{
-	font-size: 1em;
-	display: inline-block;
-}*/
+footer p{
+	text-align: center;
+	width: 100%;
+	float:left;
+	font-size: 2em;
+}
 }
