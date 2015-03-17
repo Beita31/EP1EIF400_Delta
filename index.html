@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="styles/desktop_first.css" media="all" type="text/css" />
 	<!--<link rel="stylesheet" href="styles/mobile_first.css" media="all" type="text/css" />-->
 	<link rel="stylesheet" href="styles/style.css" media="all" type="text/css" />
-	<!--[if IE]-->
-	<link rel="stylesheet" href="style_ie.css" media="all" type="text/css" />
+	<!--[if IE]>
+		<link rel="stylesheet" href="styles/style_ie.css" media="all" type="text/css" />
 	<!--[end if]-->
 </head>
 <body>
@@ -21,7 +21,7 @@
 				<li>HOME</li>
 				<li><a href="#">ABOUT</a></li>
 				<li><a href="#">COURSES</a></li>
-				<li><a href="#">CONTACT</a></li>
+				<li class="last"><a href="#">CONTACT</a></li>
 			</ul>
 		</nav>
 		<figure>
@@ -64,8 +64,7 @@
 						</span>
 						with an
 						<a href="">unnassigned link</a>
-					</p> 
-					<p>A
+					<br>A
 						<span class="italica">
 							second
 						</span>
@@ -92,8 +91,13 @@
 				imperdiet a, venenatis vitae, justo.
 				</p>
 			</div>
+<<<<<<< HEAD
 			<div id = "Sub_Sub_Sub_Section" class="italica fuenteRoja">
 				<h5>Sub-Sub-Sub-Section</h5>
+=======
+			<div id = "Sub_Sub_Sub_Section" class="italica IE">
+				<h4>Sub-Sub-Sub-Section</h4>
+>>>>>>> origin/master
 				<p>Rojo solo para IE, el resto lo debe ver negro</p>
 			</div>
 		</aside>       
@@ -104,7 +108,7 @@
 					<li>HOME</li>
 					<li><a href="#">ABOUT</a></li>
 					<li><a href="#">COURSES</a></li>
-					<li><a href="#">CONTACT</a></li>
+					<li class="last"><a href="#">CONTACT</a></li>
 				</ul>
 			</nav>
 			<p>Copyright @ 2015. Curso de Programación Web</p>
