@@ -50,6 +50,28 @@ h5{
 	margin-bottom: 2px;
 }
 
+footer{
+	width: 100%;
+	text-align: center;
+}
+
+footer p{
+	text-align: center;
+	width: 100%;
+	float:left;
+}
+
+footer nav ul li{
+	text-align: center;
+	font-size: 1.15em;
+	display: inline-block;
+} 
+
+footer nav ul li a{
+	font-size: 1em;
+	display: inline-block;
+}
+
 #main_Section{
 	float: left;
 	width: 53.25%;
@@ -84,38 +106,20 @@ h5{
 	margin-bottom : 7px;
 }
 
-footer{
-	width: 100%;
-	text-align: center;
-}
-
-footer p{
-	text-align: center;
-	width: 100%;
-	float:left;
-}
-
-footer nav ul li{
-	text-align: center;
-	font-size: 1.15em;
-	display: inline-block;
-} 
-
-footer nav ul li a{
-	font-size: 1em;
-	display: inline-block;
-}
-
-
-
 @media only screen and (max-device-width: 460px) {
 	*{
 		font-size: 14px;
 	} 
 
+<<<<<<< HEAD
 	header, nav, div, article, aside, footer , h1, h2, h3, h4, h5{
 	float: left;
 	width:100%;
+=======
+	header, nav, div, article, aside, footer , h1, h2, h3, h4{
+		float: left;
+		width:100%;
+>>>>>>> origin/master
 	}
 
 	body {
@@ -126,7 +130,7 @@ footer nav ul li a{
 	h1{
 		margin-left: 2%;
 		float:left;
-		font-size: 8.5em;
+		font-size: 2em;
 	}
 
 
@@ -135,10 +139,13 @@ footer nav ul li a{
 		margin-left: 2%;
 		margin-right: 2%;
 	}
-
+	
+	footer nav{
+		display: none;
+	}
 	
 	header nav ul li{
-		font-size: 3em;
+		font-size: 1em;
 		display: block;
 		text-align: center;
 		padding: 1%;
@@ -161,6 +168,7 @@ footer nav ul li a{
 		text-decoration: none;
 	}
 	
+<<<<<<< HEAD
 	header figure #imgU{
 		width: 460px;
 		height: auto;
@@ -237,4 +245,6 @@ footer p{
 	float:left;
 	font-size: 2em;
 }
+=======
+>>>>>>> origin/master
 }
