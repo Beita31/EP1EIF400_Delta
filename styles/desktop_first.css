@@ -111,15 +111,9 @@ footer nav ul li a{
 		font-size: 14px;
 	} 
 
-<<<<<<< HEAD
 	header, nav, div, article, aside, footer , h1, h2, h3, h4, h5{
 	float: left;
 	width:100%;
-=======
-	header, nav, div, article, aside, footer , h1, h2, h3, h4{
-		float: left;
-		width:100%;
->>>>>>> origin/master
 	}
 
 	body {
@@ -130,22 +124,18 @@ footer nav ul li a{
 	h1{
 		margin-left: 2%;
 		float:left;
-		font-size: 2em;
+		font-size: 6.5em;
 	}
 
 
 	header nav{
 		width: 100%;
-		margin-left: 2%;
-		margin-right: 2%;
-	}
-	
-	footer nav{
-		display: none;
+		margin-left: 0.1%;
+		margin-right: 0.1%;
 	}
 	
 	header nav ul li{
-		font-size: 1em;
+		font-size: 3em;
 		display: block;
 		text-align: center;
 		padding: 1%;
@@ -168,7 +158,6 @@ footer nav ul li a{
 		text-decoration: none;
 	}
 	
-<<<<<<< HEAD
 	header figure #imgU{
 		width: 460px;
 		height: auto;
@@ -245,6 +234,4 @@ footer p{
 	float:left;
 	font-size: 2em;
 }
-=======
->>>>>>> origin/master
 }
